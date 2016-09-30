@@ -1,0 +1,75 @@
+img {
+	display: inline-block;
+	position: relative;
+	width: 70%;
+	margin-top: 15vh;
+}
+
+html {
+	background-color: aliceblue;
+}
+
+a:link 
+{ 
+	text-decoration:none; 
+} 
+
+a, a:hover, a:active, a:visited { color: blue; }
+
+div{
+	background-color: #87CEEB;
+	position: relative;
+	height: 40vh;
+}
+
+ul{
+	list-style: none;
+	display: flex;
+	position: absolute;
+	z-index: 5;
+}
+
+li{
+	position: relative;
+	padding: 8vw;
+	display: flex;
+	margin-left: 2vw;
+	font-family: 'Cinzel', serif;
+	font-size: 30px;
+}
+
+h3{
+	position: absolute;
+	text-align: center;
+	display: inline;
+	margin-left: 600px;
+	font-family: 'EB Garamond', serif;
+	font-size: 50px;
+}
+
+.photo {
+	filter: brightness(0.2);
+	transition: all 0.3s ease-in-out;
+	-webkit-filter: brightness(0.2);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-filter: brightness(0.2);
+	-moz-transition: all 0.3s ease-in-out;
+}
+.photo:hover {
+	transform: scale(1.2);
+	filter: none;
+	-webkit-transform: scale(1.2);
+	-webkit-filter: none;
+	-moz-transform: scale(1.2);
+	-moz-filter: none;
+}
+.lien {
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+}
+.lien:hover {
+	transform: scale (1.1);
+	-webkit-transform: scale (1.1);
+	-moz-transform: scale (1.1);
+}
